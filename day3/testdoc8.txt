@@ -1,0 +1,14 @@
+                 Rules for overiding:
+Constructors cannot be overridden.
+				 
+Instance methods can be overridden only if they are inherited by the subclass.
+
+A method declared final cannot be overridden.
+
+A method declared static cannot be overridden but can be re-declared.
+
+If a method cannot be inherited, then it cannot be overridden.
+
+A subclass within the same package as the instance's superclass can override any superclass method that is not declared private or final.
+
+A subclass in a different package can only override the non-final methods declared public or protectedv
